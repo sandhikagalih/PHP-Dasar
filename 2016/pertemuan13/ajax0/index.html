@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coba ajax</title>
+</head>
+<body>
+
+<input type="text" id="id" name="id"> <br>
+<button id="tombol" name="tombol" type="button">Ambil Data</button>
+
+<div id="tujuan">
+	
+</div>
+
+<script>
+	// ambil tombol
+	var tombol = document.getElementById('tombol');
+	var idMhs = document.getElementById('id');
+
+	// panggil event click
+	tombol.onclick = function() {
+		// ajax
+		// buat objek ajax dulu
+		var xhr = new XMLHttpRequest();
+
+		// cek kondisi ajax
+		xhr.onreadystatechange = function() {
+			// cek status ajax & status data yang dituju
+			if( xhr.readyState == 4 && xhr.status == 200 ) {
+				// lakukan aksi
+				var tujuan = document.getElementById('tujuan');
+				tujuan.innerHTML = xhr.responseText;
+			}
+		}
+
+		// eksekusi ajax
+		xhr.open('GET', 'mahasiswa.php?id=' + idMhs.value, true);
+		xhr.send();
+
+	}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

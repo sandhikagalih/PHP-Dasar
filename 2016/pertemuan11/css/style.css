@@ -1,0 +1,128 @@
+body {
+	background-color: #e7ebf2;
+}
+h2 {
+	text-align: center;
+}
+.container {
+	margin: auto;
+	width: 500px;
+	background-color: #fff;
+	box-sizing: border-box;
+	border: 1px solid #c4cde0;
+	border-radius: 3px;
+}
+
+.frame {
+	border-bottom: 1px solid #e9e9e9;
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+	width: 420px;
+}
+
+.frame img {
+	float: left;
+	margin-right: 30px;
+	border-radius: 50%;
+}
+
+.nama, .email, .universitas, .jurusan {
+	display: block;
+}
+
+.nama {
+	color: #3b5998;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.email {
+	font-size: 14px;
+}
+
+.universitas, .jurusan {
+	font-size: 18px;
+	color: #222;
+	margin-top: -2px;
+}
+
+/* Detail */
+.detail {
+	position: relative;
+	margin: 20px auto;
+	padding: 15px;
+	width: 420px;
+	text-align: center;
+}
+
+.detail img {
+	float: none;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	width: 200px;
+}
+
+.detail h2, p { margin: 0; padding: 0; }
+.detail h2 { margin-top: 20px; }
+.detail .jurusan { margin-top: 5px; margin-bottom: 20px; }
+.detail a { font-weight: bold; }
+
+/* Login */
+.logout {
+	position: absolute;
+	right: 22px;
+	top: 150px;
+}
+.login-area {
+	width: 50%;
+	margin: auto;
+}
+
+.login-form { 
+	margin-top: 20px; 
+}
+
+.login-form p {
+	margin: 0;
+	font-size: .8em;
+	font-style: italic;
+}
+
+/* top */
+.top {
+	margin: 20px auto;
+	width: 500px;
+	text-align: right;
+}
+
+
+/* admin */
+body { padding: 20px;}
+table { margin-top: 20px; }
+.form-mhs { width: 60%;}
+.logout {
+	position: absolute;
+	right: 22px;
+	top: 150px;
+}
+.login-area {
+	width: 60%;
+	margin: auto;
+}
+table p {
+	margin: 0;
+	font-size: .8em;
+	font-style: italic;
+}
+
+
+/* search */
+.search {
+	margin: 15px auto 0;
+	text-align: center;
+	border-bottom: 1px solid #e9e9e9;
+	width: 600px;
+}
