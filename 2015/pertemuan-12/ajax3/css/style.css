@@ -1,0 +1,31 @@
+body { 
+	width: 500px; 
+	margin: auto; 
+	font-family: arial; 
+}
+ul { 
+	list-style: none;
+	padding: 0;
+}
+#daftar-komentar li:first-child {
+	color: green;
+}
+.container { position: relative; }
+#loading { 
+	position: absolute; 
+	left: 160px;
+	top: 3px;
+}
+.nama { 
+	font-weight: bold; 
+	font-size: 14px; 
+}
+.tanggal {
+	font-size: 10px;
+	color: #999;
+}
+.komentar {
+	font-size: 11px;
+	color: #333;
+	font-style: italic;
+}

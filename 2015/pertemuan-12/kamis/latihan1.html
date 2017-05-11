@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<title>Latihan 1</title>
+	<style>
+		/*#heading { color: red; }
+		#p1 { font-family: arial; }
+		div p { color: green; }*/
+	</style>
+</head>
+<body>
+
+<h1 id="heading">Hello World</h1>
+<p id="p1">Paragraf 1</p>
+<div id="container">
+	<p>Paragraf 2 di dalam div</p>
+</div>
+
+
+<script>
+	// caching
+	var heading = document.getElementById('heading'),
+		p1 = document.getElementById('p1'),
+		container = document.getElementById('container');
+
+	heading.style.color = "red";
+	heading.style.fontSize = "100px";
+	heading.style.fontFamily = "arial";
+
+	p1.style.textDecoration = "underline";
+
+	container.innerHTML = "<p>ini adalah teks yang dihasilkan oleh javascript</p>";
+
+</script>
+</body>
+</html>
+
+
+
+
+

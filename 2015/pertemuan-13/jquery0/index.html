@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<title>AJAX</title>
+	<script src="../__js__/jquery-2.0.3.js"></script>
+</head>
+<body>
+
+<button id="submit">Ubah Teks</button>
+
+<div id="teks"></div>
+
+<script>
+	$('#submit').click(function(){
+
+		// menggunakan $.ajax
+		$.ajax({
+			url: 'teks.txt',
+			type: 'GET',
+			success: function(hasil) {
+				$('#teks').html(hasil);
+			}
+		});
+
+		// menggunakan $.get
+		// $.get('teks.txt', function(hasil) {
+		// 	$('#teks').html(hasil);
+		// });	
+
+		// menggunakan $.load
+		// $('#teks').load('teks.txt');
+
+	});	
+</script>
+</body>
+</html>

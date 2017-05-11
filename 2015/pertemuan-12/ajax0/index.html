@@ -1,0 +1,57 @@
+<!-- 
+
+ajax0
+menggunakan ajax untuk mengambil data dari file .txt
+lalu menyimpannya di dalam elemen html
+
+Sandhika Galih
+Pemrograman Web 2 - IT304
+Teknik Informatika
+Universitas Pasundan
+	
+-->
+
+<!doctype html>
+<html>
+<head>
+	<title>AJAX</title>
+</head>
+<body>
+
+<button onclick="tulisTeks()" name="submit" id="submit">Submit</button>
+
+<div id="teks"></div>
+
+<script>
+	function tulisTeks() {
+
+		// inisialisasi variabel ajax
+		var xhr = null;
+
+		if( window.XMLHttpRequest ) {
+			// instansiasi ajax untuk browser selain IE
+			xhr = new XMLHttpRequest();
+		} else {
+			// instansiasi ajax untuk IE
+			xhr = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		// jika browser tidak mendukung ajax
+		if( xhr == null ) {
+			alert("browser tidak mendukung ajax!");
+			return;
+		}
+		// jika ajax sudah siap mengirimkan data
+		xhr.onreadystatechange = function() {
+			if( (xhr.readyState == 4) && (xhr.status == 200) ) {
+				// ubah isi elemen html dengan respon dari ajax (text.txt)
+				document.getElementById('teks').innerHTML = xhr.responseText;
+			}
+		}
+		// mengirimkan permintaan ajax menggunakan method get ke halaman teks.txt
+		xhr.open("GET", "teks.txt", true);
+		xhr.send();
+
+	}
+</script>
+</body>
+</html>

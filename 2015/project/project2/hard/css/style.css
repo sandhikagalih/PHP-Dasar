@@ -1,0 +1,17 @@
+body { padding: 20px;}
+table { margin-top: 20px; }
+.form-mhs { width: 60%;}
+.logout {
+	position: absolute;
+	right: 22px;
+	top: 150px;
+}
+.login-area {
+	width: 60%;
+	margin: auto;
+}
+table p {
+	margin: 0;
+	font-size: .8em;
+	font-style: italic;
+}

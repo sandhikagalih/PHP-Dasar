@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<title>Latihan 4</title>
+</head>
+<body>
+
+<button id="tombol">Ubah Teks</button>
+<div id="container">
+	<p>Hello World!</p>
+</div>
+
+
+<script>
+
+var tombol = document.getElementById('tombol');
+
+tombol.onclick = function() {
+
+	// ajax
+	xhr = null;
+
+	if( window.XMLHttpRequest ) {
+		xhr = new XMLHttpRequest();
+	} else {
+		xhr = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+
+	if( xhr == null ) {
+		alert('Browser anda tidak mendukung ajax');
+		return false;
+	}
+
+	xhr.onreadystatechange = function() {
+		if( (xhr.readyState == 4) && (xhr.status == 200) ) {
+			document.getElementById('container').innerHTML = xhr.responseText;
+		}
+	}
+
+	xhr.open("GET", "latihan4.txt", true);
+	xhr.send();
+
+}
+
+</script>
+</body>
+</html>
+
+
+

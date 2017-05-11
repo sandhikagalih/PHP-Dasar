@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<title>Latihan3</title>
+	<script src="jquery-2.0.3.js"></script>
+	<style>
+		.ubahwarna { background-color: black; }
+		.kotak {
+			width: 200px;
+			height: 100px;
+			background-color: #BADA55;
+			color: white;
+			text-align: center;
+			line-height: 100px;
+			font-family: arial;
+			position: relative;
+		}
+	</style>
+</head>
+<body>
+
+<button id="tombol" name="tombol">Ubah Warna</button>
+
+<div class="kotak">Hello World</div>
+
+
+<script>
+	
+	var el = $('#tombol'),
+		div = $('.kotak');
+
+
+	el.click(function() {
+		// div.slideToggle('slow');
+		// div.fadeToggle('slow');
+		// div.toggle() // div.show() & div.hide()
+		// div.animate({
+		// 	fontSize: '30px'
+		// }, 500, function() {
+		// 	div.fadeOut('slow');
+		// }); 
+		
+		div.animate({
+			left: '200px'
+		}, 500, function() {
+			div.animate({
+				top: '100px'
+			}, 500)
+		});
+
+
+
+	});
+
+
+
+
+	// el.click(function() {
+	// 	$('body').css('backgroundColor', 'black');
+	// });
+
+	// el.on('click', function() {
+	// 	$('body').toggleClass('ubahwarna');
+	// });
+
+
+
+</script>
+</body>
+</html>
+
+
+

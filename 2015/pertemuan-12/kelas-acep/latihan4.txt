@@ -1,0 +1,1 @@
+<p>Ini dikirimkan melalui ajax.</p>

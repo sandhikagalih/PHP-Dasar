@@ -1,0 +1,6 @@
+$config = array(
+	"HOST"		=> "localhost",
+	"USERNAME"	=> "pw2unpas_project",
+	"PASSWORD"	=> "project2",
+	"DB"		=> "pw2unpas_project2_2013"
+);

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<unpas>
+	<dosen nip="1234">
+		<nama>Nofariza</nama>
+	</dosen>
+	<mahasiswa nrp="0403040023">
+		<nama>Sandhika Galih</nama>
+		<status>Lulus</status>
+		<fakultas>Teknik</fakultas>
+		<jurusan>Teknik Informatika</jurusan>
+		<ipk>3.20</ipk>
+		<deskripsi>
+			<![CDATA[ <h1>Sandhika Galih</h1>
+				Halo, nama saya dhika. Ini foto saya
+				<img src="dhika.jpg"> ]]>
+		</deskripsi>
+	</mahasiswa>
+	<mahasiswa nrp="0403040003">
+		<nama>Doddy Ferdiansyah</nama>
+		<status>Lulus</status>
+		<fakultas>Teknik</fakultas>
+		<jurusan>Teknik Informatika</jurusan>
+		<ipk>3.60</ipk>
+		<deskripsi>
+			<![CDATA[ <h1>Doddy Ferdiansyah</h1>
+				Halo, nama saya doddy. Ini foto saya
+				<img src="doddy.jpg"> ]]>
+		</deskripsi>
+	</mahasiswa>
+</unpas>
+

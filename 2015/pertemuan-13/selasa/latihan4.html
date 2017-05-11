@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<title>Latihan 4</title>
+	<script src="jquery-2.0.3.js"></script>
+</head>
+<body>
+
+<button id="tombol">Tampilkan Teks</button>
+
+<div id="container">
+	<p>Ini nanti diganti sama ajax</p>
+</div>
+
+
+<script>
+	var tombol = $('#tombol'),
+		container = $('#container');
+
+	tombol.click(function() {
+		container.load('latihan4.txt');
+	});
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

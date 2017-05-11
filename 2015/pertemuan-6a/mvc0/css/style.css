@@ -1,0 +1,115 @@
+* { margin: 0; padding: 0;}
+
+body {
+  font-family: "lucida sans", arial; 
+	background-color: #003366;
+}
+
+.wrapper
+{
+	width: 760px;
+	margin: auto;
+	border: 1px solid #000033;
+	background-color: #fff;
+}
+
+/* Header & H1 */
+.header {
+  height: 130px;
+  background: #000033 url(../images/header.jpg) no-repeat;
+}
+
+.header h1 {
+  color: #eecc11;
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+
+
+/* Layout untuk area Content */
+.content {
+  padding: 15px;  
+  width: 480px;
+  float: left; 
+}
+
+.content h3 {
+  margin-bottom: 10px;  
+  color: #6b0018;
+}
+
+.content p {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+
+
+/* Layout untuk area Sidebar */
+.sidebar {
+  padding:10px;
+  width:220px;
+  float:right;
+  background-color: #000033;
+  color: #fff;
+}
+
+
+/* Menu Navigasi */
+
+.navmenu { 
+  list-style-type: none;
+}
+
+.navmenu li {
+  margin-bottom: 5px;
+}
+
+.navmenu a { 
+  display: block;
+  background-color: #003366;
+  padding: 5px 5px 3px;
+  text-align: right;
+  text-decoration: none;
+  color: #eecc11;
+  cursor: pointer;
+}
+
+.navmenu .selected { 
+  text-align: left;
+  background-color: #386088;
+  color: #fff;
+}
+
+.navmenu a:hover { 
+  background-color: #333;
+  color: #fff;
+}
+
+.clear { clear: both; }
+
+/* Layout Untuk Footer */
+.footer {
+  padding:20px;
+  text-align:center;
+  background-color: #000033;
+  background: #000033 url(../images/footer.jpg) no-repeat;
+  
+}
+
+.footer p {
+  color: #ddd;
+  margin: 5px;
+  padding-top: 10px;
+}
+
+.footer a {
+  padding: 0;
+  color: #ddd;
+}
+
+.footer a:hover {
+  color: #eecc11;
+}
