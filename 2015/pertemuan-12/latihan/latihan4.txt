@@ -1,1 +1,0 @@
-<p>Ini adalah teks yang diambil menggunakan ajax</p>

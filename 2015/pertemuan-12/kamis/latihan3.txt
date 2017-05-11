@@ -1,4 +1,0 @@
-ini adalah teks yang dikirimkan lewat ajax.
-ini adalah teks yang dikirimkan lewat ajax.
-ini adalah teks yang dikirimkan lewat ajax.
-ini adalah teks yang dikirimkan lewat ajax.

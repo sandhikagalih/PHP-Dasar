@@ -1,1 +1,0 @@
-NREUM.setToken(null)
