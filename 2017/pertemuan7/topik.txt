@@ -1,0 +1,6 @@
+- GET
+- isset
+- POST
+- redirect
+- SESSION
+- COOKIE
