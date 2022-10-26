@@ -43,7 +43,14 @@
 	// LOGIKA / LOGICAL
 	// &&, ||, !
 
-
-
-
+	/*
+		TIPE DATA
+	- integer
+	- string
+	- boolean
+    - array
+    - object
+    - null
+    - undefined
+	*/ 
 ?>
