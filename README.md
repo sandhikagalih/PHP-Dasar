@@ -1,4 +1,7 @@
-# Materi PHP Dasar WebProgrammingUNPAS 2015
-## Disampaikan oleh @sandhikagalih
-### http://sandhikagalih.net
-### http://youtube.com/webprogrammingunpas
+halo pak salam kenal saya baru di bidang programming
+
+resolusi saya membuat web dengan professional
+
+saya ingin bekerja di startup 
+
+saya ingin bekerja work from home
